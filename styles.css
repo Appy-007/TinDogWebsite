@@ -1,0 +1,172 @@
+/*body*/
+body{
+    font-family:'Montserrat';
+}
+
+/*title section*/
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 20%;
+}
+h1{
+    font-family:'Montserrat';
+    color: aliceblue;
+    size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.dog-img{
+    transform: rotate(23deg);
+    position: absolute;
+   
+}
+
+@media (max-width:1020px){
+    .dog-img{
+        position: static;
+        transform: rotate(0deg);
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+/*navbar button*/
+.navbar{
+    padding: 0 0 3rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 30px;
+}
+.intro-button{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
+
+/*features section*/
+
+
+#features{
+    background-color: #fff;
+    position: relative;
+    
+}
+.fa-solid{
+    font-size: 40px;
+    color: #ef8172;
+}
+.fa-solid:hover{
+    color: #ff46c8;
+}
+.features-row{
+padding: 7rem 10rem;
+padding-bottom: 9rem;
+}
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+p{
+    color: #8f8f8f;
+    padding: 0 15px 0 15px;
+}
+.features-col{
+text-align: center;
+margin: auto;
+}
+
+/*testimonials section*/
+#testimonials{
+    background-color: #ff4c68;
+    font-family:'Montserrat';
+    
+    color: aliceblue;
+    size: 3%;
+    text-align: center;
+    
+    margin-bottom: 10;
+
+}
+h2{
+    font-weight: bold;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 5px;
+}
+.carousel-item{
+    padding: 3% 20%;
+}
+
+/*press section*/
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin-top: 5%;
+   margin-bottom: 15%;
+}
+
+/*pricing section*/
+#pricing{
+    padding: 5%;
+    text-align: center;
+}
+
+.pricing-section{
+    padding: 2% 3%;
+}
+
+/* footer section */
+.footer-text{
+    background-color: #ff4c68;
+    padding-bottom: 5%;
+
+}
+.footer-heading{
+    font-family:'Montserrat';
+    color: aliceblue;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 10%;
+    padding: auto;
+    
+}
+.footer-text{
+  text-align:  center;
+   
+}
+.copyright{
+    background-color:  aliceblue;
+    padding-bottom: 8%;
+}
+.footer-icons{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10%;
+   
+  
+}
+.footer-icons-class{
+    text-align: center;
+}
+.copyright-para{
+    text-align: center;
+}
